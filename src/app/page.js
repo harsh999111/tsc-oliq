@@ -1,9 +1,11 @@
 import React from 'react'
-import Taste from './components/Taste/Taste'
+import Taste from '../components/Taste/Taste'
 
 const Home = () => {
   return (
-   <Taste/>
+    <>
+      <Taste/>
+    </>
   )
 }
 
